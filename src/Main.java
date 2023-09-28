@@ -5,7 +5,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         while (true) {
-            System.out.print("Enter your range (or -1 to stop): ");
+            System.out.print("Enter your number (or -1 to stop): ");
             int range = input.nextInt();
 
             if (range < 0) {
